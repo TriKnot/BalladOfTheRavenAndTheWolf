@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{673a6e9e-a1c8-486c-b514-6e98487bff95}">
+		<property name="name">
+			<value>EvolveBlightAmbience</value>
+		</property>
+		<relationship name="folder">
+			<destination>{146e49f5-4a33-4a73-b027-2239b1e39e10}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{06599c09-6dc9-40fc-8cd9-41d5077709fe}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{06599c09-6dc9-40fc-8cd9-41d5077709fe}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

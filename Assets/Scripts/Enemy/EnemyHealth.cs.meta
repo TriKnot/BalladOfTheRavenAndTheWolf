@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a676241c62824d8789baa95d50dcf972
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _stats: {instanceID: 0}
+  - _damageEffectObjectPool: {instanceID: 0}
+  - _wolfBlightScriptableHealthSystem: {instanceID: 0}
+  - _floatingTextPrefabLow: {instanceID: 0}
+  - _floatingTextPrefabMed: {instanceID: 0}
+  - _floatingTextPrefabHigh: {instanceID: 0}
+  - _orbPool: {fileID: 11400000, guid: 147b5c2a1ee33c34197b8855a1431497, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

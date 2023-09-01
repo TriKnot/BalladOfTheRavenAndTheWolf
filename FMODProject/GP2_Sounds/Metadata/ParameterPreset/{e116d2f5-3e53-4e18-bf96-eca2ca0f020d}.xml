@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e116d2f5-3e53-4e18-bf96-eca2ca0f020d}">
+		<property name="name">
+			<value>EvolvingMusic</value>
+		</property>
+		<relationship name="folder">
+			<destination>{146e49f5-4a33-4a73-b027-2239b1e39e10}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8a1d01c6-18a0-4540-a6cb-56ed42a4cd85}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8a1d01c6-18a0-4540-a6cb-56ed42a4cd85}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

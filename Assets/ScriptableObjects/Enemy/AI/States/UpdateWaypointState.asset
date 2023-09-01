@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8377ce1e7df448a4895b508231ad380b, type: 3}
+  m_Name: UpdateWaypointState
+  m_EditorClassIdentifier: 
+  Actions:
+  - {fileID: 11400000, guid: 78d566312f170864f917dfd30a65015e, type: 2}
+  - {fileID: 11400000, guid: da7ca8f878bb51746af7456d09ef5794, type: 2}
+  - {fileID: 11400000, guid: f7ec258f2a266994fbb1540fc70be356, type: 2}
+  Transitions:
+  - Decision: {fileID: 11400000, guid: 822716ea5d9bdc74580c744e66e33f89, type: 2}
+    TrueState: {fileID: 11400000, guid: 4c0a4d208f2b4251a6f469bc634dcc96, type: 2}
+    FalseState: {fileID: 11400000, guid: cd6f432efe4f37f479ab977f6ff0a287, type: 2}

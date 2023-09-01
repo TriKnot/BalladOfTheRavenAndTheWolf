@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{46f480f4-5d36-4c80-96f0-04793c1a444c}">
+		<property name="assetPath">
+			<value>GP2_Music_Menu_1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>178.28571428571428</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7bea22c-cd54-4598-8442-adb07e19df76}</destination>
+		</relationship>
+	</object>
+</objects>

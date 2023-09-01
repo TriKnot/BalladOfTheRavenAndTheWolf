@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8856805439584066516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/GP2_Sounds/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 638115338471189202
+  FileSizes:
+  - Name: Desktop
+    Value: 2256160
+  Exists: 1
+--- !u!114 &-7573148204569695830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ForestNightAmbience/EvolveBlightAmbience
+  m_EditorClassIdentifier: 
+  Name: EvolveBlightAmbience
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1716978709
+    data2: 119062414
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6801121046036221261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerSounds/Wolf/WolfAttack
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerSounds/Wolf/WolfAttack
+  Guid:
+    Data1: -1584877334
+    Data2: 1245623620
+    Data3: 295094418
+    Data4: -1201671994
+  Banks:
+  - {fileID: 6373707056128524327}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-3802059825725045317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EnemySounds/Wolfkin/BlightedWolfkinDeath
+  m_EditorClassIdentifier: 
+  Path: event:/EnemySounds/Wolfkin/BlightedWolfkinDeath
+  Guid:
+    Data1: -1736637995
+    Data2: 1122579114
+    Data3: -726174293
+    Data4: -1057429221
+  Banks:
+  - {fileID: 7876441552050958082}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 2693907116518690166}
+  - {fileID: -8856805439584066516}
+  - {fileID: 2761546664459303690}
+  - {fileID: 7876441552050958082}
+  - {fileID: 1936680969049927803}
+  - {fileID: 6373707056128524327}
+  EditorEvents:
+  - {fileID: 6896930235962696127}
+  - {fileID: -3802059825725045317}
+  - {fileID: 5974650893591868361}
+  - {fileID: -6801121046036221261}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 2761546664459303690}
+  StringsBanks:
+  - {fileID: 2693907116518690166}
+  cacheTime: 638115338471318858
+  cacheVersion: 131601
+--- !u!114 &1936680969049927803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Grove.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/GP2_Sounds/Build/Desktop/Grove.bank
+  Name: Grove
+  StudioPath: bank:/Grove
+  lastModified: 638115338471239078
+  FileSizes:
+  - Name: Desktop
+    Value: 148000
+  Exists: 1
+--- !u!114 &2693907116518690166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/GP2_Sounds/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638115338471259027
+  FileSizes:
+  - Name: Desktop
+    Value: 1210
+  Exists: 1
+--- !u!114 &2761546664459303690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/GP2_Sounds/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638114584062653949
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
+--- !u!114 &5974650893591868361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GroveSounds/Groveheart/GroveheartDamaged
+  m_EditorClassIdentifier: 
+  Path: event:/GroveSounds/Groveheart/GroveheartDamaged
+  Guid:
+    Data1: 1635951944
+    Data2: 1252304090
+    Data3: 862837930
+    Data4: 1046639014
+  Banks:
+  - {fileID: 1936680969049927803}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &6373707056128524327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Wolf.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/GP2_Sounds/Build/Desktop/Wolf.bank
+  Name: Wolf
+  StudioPath: bank:/Wolf
+  lastModified: 638115338471318858
+  FileSizes:
+  - Name: Desktop
+    Value: 22016
+  Exists: 1
+--- !u!114 &6896930235962696127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/ForestNightAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/ForestNightAmbience
+  Guid:
+    Data1: 1349207151
+    Data2: 1332678626
+    Data3: 2144548760
+    Data4: -387207950
+  Banks:
+  - {fileID: -8856805439584066516}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -7573148204569695830}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 29538
+--- !u!114 &7876441552050958082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Enemy.bank
+  m_EditorClassIdentifier: 
+  Path: FMODProject/GP2_Sounds/Build/Desktop/Enemy.bank
+  Name: Enemy
+  StudioPath: bank:/Enemy
+  lastModified: 638115338471219126
+  FileSizes:
+  - Name: Desktop
+    Value: 80576
+  Exists: 1

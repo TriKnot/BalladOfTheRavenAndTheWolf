@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ee7d4f9af541bdf46afd5884f23f73cf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _slider: {instanceID: 0}
+  - _fill: {instanceID: 0}
+  - _rotateToThis: {fileID: 11400000, guid: 2179b345a2eba384f9428cc0f75e5a6b, type: 2}
+  - _healthSystem: {instanceID: 0}
+  - _enemyHealth: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

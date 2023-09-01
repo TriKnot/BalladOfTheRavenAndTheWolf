@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f007ded001888a439e9d5a66e791dfc, type: 3}
+  m_Name: WolfDropAbility
+  m_EditorClassIdentifier: 
+  _statusEffect:
+  - {fileID: 11400000, guid: b02b758ceaa59e54da42ff1205765e9d, type: 2}
+  _floatingTextPool: {fileID: 11400000, guid: 9512da033b894234cb4089d1376ff512, type: 2}
+  _minFloatingTextDamage: 0
+  _groundCheckDistance: 1.4
+  _DropZoneLayer:
+    serializedVersion: 2
+    m_Bits: 32768
+  _activeEnemies: {fileID: 11400000, guid: 7fc2663159c0a084cb8b167a56964c1d, type: 2}
+  _floatTime: 0.2
+  _cooldownTime: 2
+  _recoveryTime: 0
+  _slamStrength: 2500
+  _attackRange: 7
+  _attackDamageMultiplier: 2
+  _inRangeTargets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _animationTriggerName: Landing
+  _aoeSplashPrefab: {fileID: 7674877830085855569, guid: 9fd7b6062efe8704ab4b957c6aef3657,
+    type: 3}

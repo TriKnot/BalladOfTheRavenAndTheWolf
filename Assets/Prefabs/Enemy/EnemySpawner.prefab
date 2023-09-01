@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7549050387226417069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7549050387226417070}
+  - component: {fileID: 7549050387226417071}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7549050387226417070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7549050387226417069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 36.48, y: 6.16, z: -5.38}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7549050387226417071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7549050387226417069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 347227586c4cfff439fd8efc63b9db4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _attackTargets: {fileID: 11400000, guid: a18567081bc79514faeb4aecb083802c, type: 2}
+  _heartScriptableHealth: {fileID: 11400000, guid: 8aa7dc84a34442544a92e4c3b9d01da9,
+    type: 2}
+  _sections:
+  - MaxHealthPercentage: 0.2
+    EnemyWaves:
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 20
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 67325435e8519f94d80940c544a23f63, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 7
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 67325435e8519f94d80940c544a23f63, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 15
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: edeef0759027b564cbae16feea7a0bbd, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 15
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 6c555e6a54dc53347abf3fe8943e7659, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 15deb17f00c753b48a95498cddfc20d2, type: 2}
+      _spawnDelay: 10
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: edeef0759027b564cbae16feea7a0bbd, type: 2}
+  - MaxHealthPercentage: 0.4
+    EnemyWaves:
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 20
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 6c555e6a54dc53347abf3fe8943e7659, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 7
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 6c555e6a54dc53347abf3fe8943e7659, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 819a7749befd0f644abd1aebe5e4db06, type: 2}
+      _spawnDelay: 15
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: edeef0759027b564cbae16feea7a0bbd, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 15
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 67325435e8519f94d80940c544a23f63, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 10
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: edeef0759027b564cbae16feea7a0bbd, type: 2}
+  - MaxHealthPercentage: 0.6
+    EnemyWaves:
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 15deb17f00c753b48a95498cddfc20d2, type: 2}
+      _spawnDelay: 20
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 67325435e8519f94d80940c544a23f63, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 7
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 67325435e8519f94d80940c544a23f63, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 7
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 6c555e6a54dc53347abf3fe8943e7659, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 10
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 67325435e8519f94d80940c544a23f63, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 819a7749befd0f644abd1aebe5e4db06, type: 2}
+      _spawnDelay: 13
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: edeef0759027b564cbae16feea7a0bbd, type: 2}
+  - MaxHealthPercentage: 0.8
+    EnemyWaves:
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 20
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 6c555e6a54dc53347abf3fe8943e7659, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 4
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 67325435e8519f94d80940c544a23f63, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 819a7749befd0f644abd1aebe5e4db06, type: 2}
+      _spawnDelay: 11
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 6c555e6a54dc53347abf3fe8943e7659, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 41e7e2da49e430244a365f5ee37fc8e8, type: 2}
+      _spawnDelay: 14
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: edeef0759027b564cbae16feea7a0bbd, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 17
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 67325435e8519f94d80940c544a23f63, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 3
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 67325435e8519f94d80940c544a23f63, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 4fefb4f7972eae7428e0cb315a5d1dc1, type: 2}
+      _spawnDelay: 14
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: edeef0759027b564cbae16feea7a0bbd, type: 2}
+  - MaxHealthPercentage: 1
+    EnemyWaves:
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 20
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 67325435e8519f94d80940c544a23f63, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 4fefb4f7972eae7428e0cb315a5d1dc1, type: 2}
+      _spawnDelay: 7
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 6c555e6a54dc53347abf3fe8943e7659, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 73959a4152e0bd846a0c8e8effb722c5, type: 2}
+      _spawnDelay: 13
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: edeef0759027b564cbae16feea7a0bbd, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 9e6a5afde69955649a4f8b16fd344112, type: 2}
+      _spawnDelay: 12
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 67325435e8519f94d80940c544a23f63, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 73959a4152e0bd846a0c8e8effb722c5, type: 2}
+      _spawnDelay: 10
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: 6c555e6a54dc53347abf3fe8943e7659, type: 2}
+    - WaveNumber: 0
+      AttackTargets: {fileID: 0}
+      _enemyWave: {fileID: 11400000, guid: 819a7749befd0f644abd1aebe5e4db06, type: 2}
+      _spawnDelay: 17
+      _spawnInterval: 0.25
+      _lane: {fileID: 11400000, guid: edeef0759027b564cbae16feea7a0bbd, type: 2}
+  _UIPrefab: {fileID: 0}

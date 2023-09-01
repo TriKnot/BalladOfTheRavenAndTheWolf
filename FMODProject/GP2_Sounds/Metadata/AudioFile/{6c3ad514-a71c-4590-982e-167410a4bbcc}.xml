@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{6c3ad514-a71c-4590-982e-167410a4bbcc}">
+		<property name="assetPath">
+			<value>GP2_Wolf_Slash_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.57691609977324265</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7bea22c-cd54-4598-8442-adb07e19df76}</destination>
+		</relationship>
+	</object>
+</objects>

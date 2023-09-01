@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9e0a78d50f91b24a9940b0288a47b2b, type: 3}
+  m_Name: WolfBasicAttackAbility
+  m_EditorClassIdentifier: 
+  _statusEffect:
+  - {fileID: 11400000, guid: b02b758ceaa59e54da42ff1205765e9d, type: 2}
+  _floatingTextPool: {fileID: 11400000, guid: f0a36a54ea01abd40ae7440c6b9fb6b3, type: 2}
+  _minFloatingTextDamage: 0
+  _attackRangeMultiplier: 5
+  _attackAngle: 160
+  _attackDamageMultiplier: 1
+  _attackCooldown: 0.3
+  _animationTriggerName: StrongAttack
+  _soundPath: event:/PlayerSounds/Wolf/WolfAttack
+  _immobilizeTime: 0.2
+  _attackVFXPrefab: {fileID: 6598523200595437634, guid: b0bfa2f673df8ae40b214dbb67baacf7,
+    type: 3}

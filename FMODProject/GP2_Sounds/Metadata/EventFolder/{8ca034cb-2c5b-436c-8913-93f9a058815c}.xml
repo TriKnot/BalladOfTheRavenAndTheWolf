@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{8ca034cb-2c5b-436c-8913-93f9a058815c}">
+		<property name="name">
+			<value>Wolfkin</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0886dd42-8c7d-4723-a52e-5c84f735ff11}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8eea5741-15df-4745-b05f-f84c9246a394}">
+		<property name="assetPath">
+			<value>GP2_BlightedWolfkin_Damage_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.57691609977324265</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c7bea22c-cd54-4598-8442-adb07e19df76}</destination>
+		</relationship>
+	</object>
+</objects>

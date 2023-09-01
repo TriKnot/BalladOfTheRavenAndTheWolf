@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b1d2c5e00796c8b48b3f2f1f8ac4aa1a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Neue Kabel
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 71eadb337405e0544acd6ae55a63fa01, type: 3}
+  - {fileID: 12800000, guid: d0dd20f8603716c46ac08ebdc71d8be2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 67f473788e7ead84f951fccf3cc0ebfb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _targetGameObjectList: {fileID: 11400000, guid: 2a2301b12108be246af1b5f46e1d2ffc,
+      type: 2}
+  - _heartHealth: {fileID: 11400000, guid: 8aa7dc84a34442544a92e4c3b9d01da9, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

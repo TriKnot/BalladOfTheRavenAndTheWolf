@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8377ce1e7df448a4895b508231ad380b, type: 3}
+  m_Name: MoveAlongPathState
+  m_EditorClassIdentifier: 
+  Actions:
+  - {fileID: 11400000, guid: 31638bdc42374046a1051ad76970680e, type: 2}
+  Transitions:
+  - Decision: {fileID: 11400000, guid: 28a5b40b99f18ef4b84963adf5f68b72, type: 2}
+    TrueState: {fileID: 11400000, guid: 0748ca4b43d2926449010f37a9a1facb, type: 2}
+    FalseState: {fileID: 11400000, guid: 4c0a4d208f2b4251a6f469bc634dcc96, type: 2}
+  - Decision: {fileID: 11400000, guid: a36f48ddc2a3b7543804e0accf768b72, type: 2}
+    TrueState: {fileID: 11400000, guid: 77e47c71dbcba514a91df12569aef6ce, type: 2}
+    FalseState: {fileID: 11400000, guid: 4c0a4d208f2b4251a6f469bc634dcc96, type: 2}
+  - Decision: {fileID: 11400000, guid: ed39f39899235124cb6d6a9e193db29f, type: 2}
+    TrueState: {fileID: 11400000, guid: 999e6deb9aa879d47bde8434865dbb56, type: 2}
+    FalseState: {fileID: 11400000, guid: 4c0a4d208f2b4251a6f469bc634dcc96, type: 2}
+  - Decision: {fileID: 11400000, guid: 4cfe186b4e537304fa21777d0ab38016, type: 2}
+    TrueState: {fileID: 11400000, guid: 0a03c664e87922343b72b454fe50f908, type: 2}
+    FalseState: {fileID: 11400000, guid: 4c0a4d208f2b4251a6f469bc634dcc96, type: 2}
+  - Decision: {fileID: 11400000, guid: 822716ea5d9bdc74580c744e66e33f89, type: 2}
+    TrueState: {fileID: 11400000, guid: 170f8d350771929458a2eb3343915389, type: 2}
+    FalseState: {fileID: 11400000, guid: 4c0a4d208f2b4251a6f469bc634dcc96, type: 2}
+  - Decision: {fileID: 11400000, guid: f1952e6496c647bd882674742a7762a6, type: 2}
+    TrueState: {fileID: 11400000, guid: a149bbef137921a418d0bea74403ed9f, type: 2}
+    FalseState: {fileID: 11400000, guid: 4c0a4d208f2b4251a6f469bc634dcc96, type: 2}

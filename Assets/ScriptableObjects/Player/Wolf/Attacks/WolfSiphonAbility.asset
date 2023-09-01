@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f229f10b345d37a4e890b35f8394a761, type: 3}
+  m_Name: WolfSiphonAbility
+  m_EditorClassIdentifier: 
+  _statusEffect: []
+  _floatingTextPool: {fileID: 0}
+  _minFloatingTextDamage: 0
+  _range: 15
+  _distanceCheckInterval: 1
+  _targetList: {fileID: 11400000, guid: 2a2301b12108be246af1b5f46e1d2ffc, type: 2}
+  _duration: 1.75
+  _speedDuration: 5
+  _speedMultiplier: 0.25
+  _SyphonBoolName: IsSyphoning
+  _siphonVFXPool: {fileID: 11400000, guid: 147b5c2a1ee33c34197b8855a1431497, type: 2}
+  HealthToTickAnimation: 8
